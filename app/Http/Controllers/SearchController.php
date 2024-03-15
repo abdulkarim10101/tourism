@@ -9,7 +9,13 @@ class SearchController extends Controller
 {
     public function autocomplete()
     {
-        $products = Product::selectRaw('id as id, name as text')->get();
+        $products = Product::select('name')->get()->map(function ($product) {
+            return [
+                'id' => $product->name,
+                'text' => $product->name
+            ];
+        });
+        // dd($products);
         return response()->json(['results' => $products]);
 
     }
