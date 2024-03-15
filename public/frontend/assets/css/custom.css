@@ -1,0 +1,119 @@
+.w-100-px {
+    width: 100px !important;
+}
+
+
+/*------------------------------------
+File for your custom SCSS style
+------------------------------------*/
+/* mycustom */
+
+.account-tabss {
+    padding: 20px 20px;
+}
+
+.account-tabss li a {
+    color: #333e48;
+    font-size: 0.875rem;
+}
+
+.account-tabss li a:hover {
+    color: #51A99B
+}
+
+.account-tabss ul.nav.nav-tabs {
+    display: block;
+}
+
+.account-tabss li {
+    padding: 0.5rem 1.5rem;
+    border-bottom: 1px solid #dddddd;
+}
+
+.account-tabss .nav-tabs {
+    border: 0 !important;
+}
+
+.account-tabss li:last-child {
+    border: 0
+}
+
+.account-tabss li a.active {
+    font-weight: 600;
+    color: #51A99B;
+}
+
+.account-tabs-content .block-title {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 10px;
+    background: #51A99B;
+    color: #fff;
+}
+
+.account-tabs-content .box {
+    padding: 15px;
+}
+
+.account-tabs-content .box .box-title {
+    font-size: 16px;
+    font-weight: 600 !important;
+    color: #333e48;
+    margin-bottom: 5px;
+}
+
+.account-tabs-content .box .box-content p {
+    margin-bottom: 12px;
+}
+
+.account-tabs-content .box .box-actions a {
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.account-tabs-content .block-title {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.account-tabs-content .block-title .action {
+    color: #333e48;
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+.displaynonecustom {
+    display: none;
+}
+
+.account-tabs-content table td a {
+    font-size: 15px;
+}
+
+.account-tabs-content table td span {
+    font-size: 15px;
+}
+
+.viewall {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.slick-slider {
+    touch-action: auto;
+    -ms-touch-action: auto;
+}
+
+.sticky-header {
+    display: none !important;
+}
+
+.selection {
+    width: 100%;
+}
+
+.select2-selection__arrow {
+    display: none;
+}
+
